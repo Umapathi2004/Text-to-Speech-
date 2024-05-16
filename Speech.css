@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, orange, pink), no-repeat;
+    overflow: hidden;
+}
+input {
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1em;
+    color: rgba(40, 39, 39, 0.714);
+    padding-left: 10px;
+    background-color: rgba(242, 230, 230, 0.88);
+}
+#submit1{
+    color: rgba(242, 230, 230, 0.88);
+    background-color: rgba(40, 39, 39, 0.714);
+}
+textarea{
+    font-size: 1.2em;
+    max-width: 380px;
+    max-height: 80px;
+    min-width: 380px;
+    min-height: 80px;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgba(242, 230, 230, 0.88);
+    border: none;
+    padding: 10px;
+    color: rgba(40, 39, 39, 0.714);
+    letter-spacing: 1px;
+}
